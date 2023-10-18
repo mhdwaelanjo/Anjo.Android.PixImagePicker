@@ -6,4 +6,28 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.databinding']/class[@name='FragmentPixBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.databinding']/class[@name='HeaderRowBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.databinding']/class[@name='InitalImageBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.databinding']/class[@name='MainImageBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Flash.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Flash.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Img.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Img.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Mode.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Mode.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Options.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Options.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Ratio.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='Ratio.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='VideoOptions.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+  <attr name="return" path="/api/package[@name='io.ak1.pix.models']/class[@name='VideoOptions.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
 </metadata>
